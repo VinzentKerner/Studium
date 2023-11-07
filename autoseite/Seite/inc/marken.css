@@ -1,0 +1,75 @@
+#buttonmarken{
+	color: deepskyblue;
+}
+#buttonmarken:hover{
+	background-color: white;
+}
+#markenlist{
+	width: 100%;
+	margin-top: 4%;
+}
+.markenbox{
+	min-width: 90%;
+	max-width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0.8%;
+	margin-bottom: 3%;
+	background-color: white;
+	box-shadow: 0 0 10px lightgray;	
+}
+.markenname{
+	margin-top: 1vh;
+	padding-left: 6%;
+	text-decoration: none;
+	font-size: 3vw;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-style: italic;
+	color: #262626;
+}
+.markentext{
+	margin-top: 2vh;
+	text-decoration: none;
+	font-size: 1.2vw;
+	font-weight: 900;
+	font-style: italic;
+	padding-bottom: 2%;
+	color: #262626;
+	width: 100%
+	margin-right: 40%;
+	vertical-align: top;
+}
+.logobild{
+	width: 100%;
+	object-fit: cover;
+	padding-bottom: 2vh;
+	padding-left: 2vw;
+	padding-top: 2vh;
+}
+.markendaten{
+	padding-left: 5vw;
+	padding-right: 3vw;
+	vertical-align: top;
+}
+.markencontainer{
+	border: solid #f4f4f4;		
+	min-height: 56vh;
+	max-height: 56vh;
+	padding-bottom: 3%;
+}
+.markenbox:hover{
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	min-width: 96%;
+	max-width: 96%;
+}
+.logocontainer{
+	width: 25%;
+}
+.markentextcontainer{
+	width: 75%;
+	vertical-align: top;
+}

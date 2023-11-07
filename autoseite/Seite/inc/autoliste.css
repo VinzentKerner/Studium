@@ -1,0 +1,63 @@
+#carlist{
+	width: 100%;
+	background-color: #f4f4f4;
+}
+.listboxl{
+	pointer-events: none;
+	padding: 3% 3% 3% 6%;
+}
+.listboxl:hover{
+	padding: 0% 0% 0% 3%;
+}
+.listboxr{
+	pointer-events: none;
+	padding: 3% 6% 3% 3%;
+}
+.listboxr:hover{
+	padding: 0% 3% 0% 0%;
+}
+.carbox{
+	pointer-events: auto;
+	background-color: white;
+	min-width: 40%;
+	box-shadow: 0 0 10px lightgray;
+}
+.carbox:hover{
+	cursor: pointer;
+}
+.autobild{
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	position: relative;
+}
+.autoname{
+	padding-top: 2%;
+	padding-left: 5%;
+	text-decoration: none;
+	font-size: 3vw;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-style: italic;
+	color: #262626;
+}
+.reihe1{
+	width: 50%;
+}
+.autotext{
+	padding-left: 5%;
+	text-decoration: none;
+	font-size: 1.2vw;
+	font-weight: 900;
+	font-style: italic;
+	padding-top: 0.5%;
+	padding-bottom: 2%;
+	color: #262626;
+	width: 100%
+}
+#buttonautoliste{
+	color: deepskyblue;
+}
+#buttonautoliste:hover{
+	background-color: white;
+}
